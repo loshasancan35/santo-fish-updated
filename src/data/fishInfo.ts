@@ -39,7 +39,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Soğuk, rüzgarlı ve dalgalı havalar',
     tip: 'Lüfer soğuk havalarda ve akıntının güçlü olduğu saatlerde daha agresif beslenir, parlak yem ve olta ucundaki hareketten etkilenir.',
     funFact: 'Lüfer, keskin dişleriyle tanınır ve İstanbul’da boyuna göre farklı isimler alır: çinekop, sarıkanat, kofana.',
-    photoUrl: 'https://images.pexels.com/photos/11229837/pexels-photo-11229837.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
+    // TODO: verify species match — bluefish
+    photoUrl: 'https://images.pexels.com/photos/36385086/pexels-photo-36385086.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Hamsi',
@@ -119,7 +120,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Hafif dalgalı havalar',
     tip: 'Karagöz kayalık diplerde ve dalgakıran içlerinde saklanır, ince tel ve doğal yemlerle daha kolay avlanır.',
     funFact: 'Karagözün gözünün üstündeki koyu leke, türün en belirgin ayırt edici özelliğidir.',
-    photoUrl: 'https://images.pexels.com/photos/19993441/pexels-photo-19993441.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
+    // TODO: verify species match — two-banded sea bream
+    photoUrl: 'https://images.pexels.com/photos/32693336/pexels-photo-32693336.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Ahtapot',
@@ -160,7 +162,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Rüzgarlı, dalgalı ve serin havalar',
     tip: 'Torik, iri boy palamuttur; sürü hareketliliğini martı yoğunluğundan takip etmek ve kaşık yemle hızlı çekiş yapmak verimlidir.',
     funFact: 'Torik, palamudun 1 kilogramın üzerindeki büyük boyuna verilen isimdir; lakerda genelde torikten yapılır.',
-    photoUrl: '',
+    // TODO: verify species match — bonito
+    photoUrl: 'https://images.pexels.com/photos/3205269/pexels-photo-3205269.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kofana',
@@ -170,7 +173,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Soğuk, rüzgarlı ve dalgalı havalar',
     tip: 'Kofana, lüferin en iri ve en temkinli halidir; derin ve sakin noktalarda canlı yemle beklemek en iyi sonucu verir.',
     funFact: 'Lüfer, boyuna göre çinekop, sarıkanat ve kofana gibi farklı isimler alır; kofana bir kilogramın üzerindeki büyük lüferdir.',
-    photoUrl: '',
+    // TODO: verify species match — bluefish (large)
+    photoUrl: 'https://images.pexels.com/photos/36385086/pexels-photo-36385086.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Çinekop',
@@ -180,7 +184,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Serin, hafif rüzgarlı havalar',
     tip: 'Çinekop küçük boy lüferdir ve sürü halinde kıyıya yakın gezer; ışıklı iskele diplerinde parlak yapay yemle avlanması kolaydır.',
     funFact: 'Çinekop adı, lüferin henüz bir yaşını doldurmamış küçük bireylerine verilir.',
-    photoUrl: '',
+    // TODO: verify species match — bluefish (juvenile)
+    photoUrl: 'https://images.pexels.com/photos/36385086/pexels-photo-36385086.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Sarıkanat',
@@ -190,7 +195,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Serin, hafif dalgalı havalar',
     tip: 'Sarıkanat, çinekop ile kofana arasındaki orta boy lüferdir; akıntılı noktalarda hareketli yem sunmak etkilidir.',
     funFact: 'Adını yüzgeçlerindeki sarımsı tonlardan alır, boy olarak lüfer yaşam evresinde ortada yer alır.',
-    photoUrl: '',
+    // TODO: verify species match — bluefish (medium)
+    photoUrl: 'https://images.pexels.com/photos/36385086/pexels-photo-36385086.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Uskumru',
@@ -200,7 +206,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Serin, hafif dalgalı havalar',
     tip: 'Uskumru sürü halinde yüzeye yakın dolaşır; küçük parlak yapay yemlerle art arda sıra halinde takılan sistemler verimlidir.',
     funFact: 'Uskumru, hızlı yüzme yeteneğiyle bilinir ve göç sırasında Boğaz’dan büyük sürüler halinde geçer.',
-    photoUrl: '',
+    // TODO: verify species match — mackerel
+    photoUrl: 'https://images.pexels.com/photos/8179220/pexels-photo-8179220.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kolyoz',
@@ -210,7 +217,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Serin ve durgun havalar',
     tip: 'Kolyoz, uskumrunun daha küçük ve sık görülen akrabasıdır; aynı sıralı küçük yapay takımlarla avlanır.',
     funFact: 'Kolyoz, uskumrudan daha kısa gövdesi ve daha belirgin karın lekeleriyle ayırt edilir.',
-    photoUrl: '',
+    // TODO: verify species match — chub mackerel
+    photoUrl: 'https://images.pexels.com/photos/8179220/pexels-photo-8179220.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Tekir',
@@ -220,7 +228,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, berrak sular',
     tip: 'Tekir, barbuna benzer ama daha kırmızı tonludur; dip taraması yaparken kumluk zeminlerde yavaş çekişle avlanır.',
     funFact: 'Tekir ile barbun sıkça karıştırılır; tekirin çizgili yan hattı ayırt edici özelliğidir.',
-    photoUrl: '',
+    // TODO: verify species match — striped red mullet
+    photoUrl: 'https://images.pexels.com/photos/32693336/pexels-photo-32693336.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kalkan',
@@ -230,7 +239,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, az dalgalı havalar',
     tip: 'Kalkan kum zemine gömülü pusuda bekler; dipten ağır yemle yavaş sürükleme en etkili yöntemdir.',
     funFact: 'Kalkan, her iki gözü de vücudunun bir tarafında toplanmış yassı bir balıktır ve kum rengine mükemmel kamufle olur.',
-    photoUrl: '',
+    // TODO: verify species match — turbot
+    photoUrl: 'https://images.pexels.com/photos/20634961/pexels-photo-20634961.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Dil Balığı',
@@ -240,7 +250,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Dil balığı dipte hareketsiz durur; küçük solucan ve karides yemiyle dip takımı kullanmak verimlidir.',
     funFact: 'Dil balığı da kalkan gibi yassıdır ve yaşamı boyunca bir gözü diğer tarafa doğru kayar.',
-    photoUrl: '',
+    // TODO: verify species match — sole
+    photoUrl: 'https://images.pexels.com/photos/29755542/pexels-photo-29755542.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Mezgit',
@@ -250,7 +261,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Soğuk, durgun havalar',
     tip: 'Mezgit soğuk kış gecelerinde dipte beslenir; küçük parlak yapay yemler ve sıralı takımlar iyi sonuç verir.',
     funFact: 'Mezgit, morina balığı ailesindendir ve soğuk sularda daha yoğun görülür.',
-    photoUrl: '',
+    // TODO: verify species match — whiting (cod family)
+    photoUrl: 'https://images.pexels.com/photos/35288360/pexels-photo-35288360.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Zargana',
@@ -260,7 +272,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, güneşli havalar',
     tip: 'Zargana yüzeye çok yakın gezer; parlak ve ince yapay yemlerle yüzeyde hızlı çekiş yaparak avlanılır.',
     funFact: 'Zargananın kemikleri, içerdiği bir pigment nedeniyle yeşilimsi renktedir; bu tamamen zararsızdır.',
-    photoUrl: '',
+    // TODO: verify species match — garfish/needlefish
+    photoUrl: 'https://images.pexels.com/photos/4631154/pexels-photo-4631154.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'İzmarit',
@@ -270,7 +283,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun ve sıcak havalar',
     tip: 'İzmarit küçük sürüler halinde gezer; ince uçlu iğneler ve küçük yemlerle art arda avlanabilir.',
     funFact: 'İzmarit, Akdeniz ve Ege kıyılarında yaz aylarında oltacıların en sık karşılaştığı küçük türlerden biridir.',
-    photoUrl: '',
+    // TODO: verify species match — picarel (sparid)
+    photoUrl: 'https://images.pexels.com/photos/9004434/pexels-photo-9004434.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Sarıkuyruk',
@@ -280,7 +294,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Hafif dalgalı, ılıman havalar',
     tip: 'Sarıkuyruk güçlü bir savaşçıdır; batık ve yapay resif çevrelerinde canlı yemle derin takım kullanmak etkilidir.',
     funFact: 'Sarıkuyruk, İngilizce\'de \'amberjack\' olarak bilinir ve büyük sürüler halinde açık suların ortasında dolaşır.',
-    photoUrl: '',
+    // TODO: verify species match — amberjack
+    photoUrl: 'https://images.pexels.com/photos/7131328/pexels-photo-7131328.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Mırmır',
@@ -290,7 +305,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun ve ılık havalar',
     tip: 'Mırmır liman ve iskele diplerinde sık görülür; küçük karides ve solucan yemiyle dip takımı iyi sonuç verir.',
     funFact: 'Mırmır, sırtındaki ince koyu çizgileriyle tanınan küçük bir mercangil balığıdır.',
-    photoUrl: '',
+    // TODO: verify species match — spotted sea bream
+    photoUrl: 'https://images.pexels.com/photos/30663714/pexels-photo-30663714.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Minekop',
@@ -300,7 +316,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Sakin, durgun havalar',
     tip: 'Minekop temkinli ve derin sularda avlanan bir balıktır; sessiz haliç ağızlarında canlı yemle sabırlı beklemek gerekir.',
     funFact: 'Minekop, su içinde çıkardığı gırtlaksı seslerle bilinir; bu sesi yüzme kesesini titreştirerek çıkarır.',
-    photoUrl: '',
+    // TODO: verify species match — brown meagre
+    photoUrl: 'https://images.pexels.com/photos/4322423/pexels-photo-4322423.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Eşkina',
@@ -310,7 +327,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Sakin havalar',
     tip: 'Eşkina, minekopla aynı türün bir diğer yerel adıdır; derin ve sakin sularda canlı yemle avlanmak en etkili yöntemdir.',
     funFact: 'Bu balık bazı bölgelerde \'eşkina\', bazı bölgelerde \'minekop\' olarak anılır; ikisi de aynı türü tanımlar.',
-    photoUrl: '',
+    // TODO: verify species match — brown meagre (same as minekop)
+    photoUrl: 'https://images.pexels.com/photos/30663714/pexels-photo-30663714.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Granyöz',
@@ -320,7 +338,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun ve berrak sular',
     tip: 'Granyöz temkinli bir mercangil balığıdır; kayalık diplerde ince uçlu takımla sessizce yaklaşmak avantaj sağlar.',
     funFact: 'Granyöz, çipura ve sinagrit ile aynı familyadandır ve genellikle daha derin kayalıklarda yaşar.',
-    photoUrl: '',
+    // TODO: verify species match — sparid (sea bream family)
+    photoUrl: 'https://images.pexels.com/photos/32693336/pexels-photo-32693336.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Melanur',
@@ -330,7 +349,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, güneşli havalar',
     tip: 'Melanur küçük sürüler halinde kayalık kıyılarda dolaşır; ekmek içi ve küçük karides yemi etkilidir.',
     funFact: 'Melanur, kuyruk sapındaki belirgin siyah lekesiyle kolayca tanınır.',
-    photoUrl: '',
+    // TODO: verify species match — wrasse
+    photoUrl: 'https://images.pexels.com/photos/36982268/pexels-photo-36982268.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'İskorpit',
@@ -340,7 +360,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'İskorpit dipte hareketsiz pusuya yatar; dikenli yüzgeçleri zehirli olduğundan tutarken dikkatli olunmalıdır.',
     funFact: 'İskorpit çorbası Ege mutfağında meşhurdur, ancak balığın dikenleri acı verici bir batma yapabilir.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/3113229/pexels-photo-3113229.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Lipsoz',
@@ -350,7 +370,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Lipsoz, çipuragillerin küçük bir üyesidir; kayalık kenarlarında küçük yemle dip takımı kullanmak uygundur.',
     funFact: 'Lipsoz, gövdesindeki ince dikey çizgilerle diğer mercangillerden ayırt edilir.',
-    photoUrl: '',
+    // TODO: verify species match — small sparid
+    photoUrl: 'https://images.pexels.com/photos/30663714/pexels-photo-30663714.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Adabeyi',
@@ -360,7 +381,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Hafif dalgalı havalar',
     tip: 'Adabeyi, sarıkuyruğun en iri halidir; derin batık noktalarında ağır takım ve canlı yemle güçlü bir mücadele verir.',
     funFact: 'Adabeyi onlarca kilograma ulaşabilen büyük bir sarıkuyruk türüdür ve sportif olta balıkçılığının gözde hedeflerindendir.',
-    photoUrl: '',
+    // TODO: verify species match — large amberjack
+    photoUrl: 'https://images.pexels.com/photos/36385086/pexels-photo-36385086.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Fangri',
@@ -370,7 +392,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Sakin, durgun havalar',
     tip: 'Fangri dipte beslenir; kayalık kenarlarda ağır dip takımıyla ve karides yemiyle avlanmak etkilidir.',
     funFact: 'Fangri, mercana benzeyen ama daha büyük boya ulaşabilen kırmızımsı bir mercangil balığıdır.',
-    photoUrl: '',
+    // TODO: verify species match — red sea bream
+    photoUrl: 'https://images.pexels.com/photos/7001662/pexels-photo-7001662.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Trança',
@@ -380,7 +403,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Trança, granyözün iri boy halidir; kayalık diplerde sabırlı ve sessiz avlanma tekniği gerektirir.',
     funFact: 'Trança, bazı bölgelerde büyük boy çipuragiller için kullanılan genel bir isimdir.',
-    photoUrl: '',
+    // TODO: verify species match — large sea bream
+    photoUrl: 'https://images.pexels.com/photos/4322423/pexels-photo-4322423.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Akya',
@@ -390,7 +414,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Hafif dalgalı, rüzgarlı havalar',
     tip: 'Akya hızlı ve saldırgan bir avcıdır; yüzeye yakın parlak yapay yemlerle hızlı çekiş yaparak avlanılır.',
     funFact: 'Akya, İngilizce\'de \'leerfish\' olarak bilinir ve su yüzeyine sıçrayarak av peşinde koşabilir.',
-    photoUrl: '',
+    // TODO: verify species match — leerfish
+    photoUrl: 'https://images.pexels.com/photos/7131328/pexels-photo-7131328.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Lahoz',
@@ -400,7 +425,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Lahoz kayalık oyuklarda pusuya yatar; dipten ağır yemle yavaş sunum yapmak gerekir çünkü hızla ini içine kaçar.',
     funFact: 'Lahoz, orfozun küçük ve daha yaygın görülen akrabasıdır.',
-    photoUrl: '',
+    // TODO: verify species match — grouper
+    photoUrl: 'https://images.pexels.com/photos/32824666/pexels-photo-32824666.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Orfoz',
@@ -410,7 +436,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, sakin havalar',
     tip: 'Orfoz güçlü ve temkinli bir balıktır; kayalık ininden çıkardıktan hemen sonra sıkı tutmak gerekir yoksa geri kaçar.',
     funFact: 'Orfoz, bazı türlerinde cinsiyet değiştirebilen mercangillerdendir ve onlarca yıl yaşayabilir.',
-    photoUrl: '',
+    // TODO: verify species match — grouper
+    photoUrl: 'https://images.pexels.com/photos/32803957/pexels-photo-32803957.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Müren',
@@ -420,7 +447,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Müren kayalık yarıklarda gizlenir; ısırığı güçlü olduğundan tutarken ve çıkarırken dikkatli davranılmalıdır.',
     funFact: 'Müren, yılan gibi kıvrılan uzun gövdesi ve keskin dişleriyle tanınan bir yılanbalığıgillerdir.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/13103440/pexels-photo-13103440.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Mığrı',
@@ -430,7 +457,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Mığrı dipte gizlenerek avlanır; gece canlı yemle dip takımı kullanmak en etkili yöntemdir.',
     funFact: 'Mığrı, denizlerde yaşayan bir yılanbalığı türüdür ve tatlı su yılanbalığından daha iri olabilir.',
-    photoUrl: '',
+    // TODO: verify species match — conger eel
+    photoUrl: 'https://images.pexels.com/photos/6770873/pexels-photo-6770873.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Vatoz',
@@ -440,7 +468,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Vatoz kum zemine gömülü şekilde avlanır; dipten ağır yemle yavaş sunum yapmak gerekir.',
     funFact: 'Vatozun kuyruğunda bazı türlerde savunma amaçlı zehirli bir diken bulunur.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/29070971/pexels-photo-29070971.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kedi Balığı',
@@ -450,7 +478,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Kedi balığı gece dipte aktif olur; kokulu yemlerle dip takımı kullanmak sonuç verir.',
     funFact: 'Kedi balığı, küçük yapılı bir köpekbalığı türüdür ve derisindeki lekeler kedi desenine benzetilir.',
-    photoUrl: '',
+    // TODO: verify species match — small shark
+    photoUrl: 'https://images.pexels.com/photos/13476998/pexels-photo-13476998.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Camgöz',
@@ -460,7 +489,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Camgöz dip yakınında gezinir; kokulu balık parçası yemiyle dip takımı iyi sonuç verir.',
     funFact: 'Camgöz, insanlara zararsız kabul edilen küçük ve sakin bir köpekbalığı türüdür.',
-    photoUrl: '',
+    // TODO: verify species match — small shark
+    photoUrl: 'https://images.pexels.com/photos/13476998/pexels-photo-13476998.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Köpek Balığı',
@@ -470,7 +500,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Sakin havalar',
     tip: 'Türkiye kıyılarında görülen köpekbalığı türlerinin çoğu küçük ve zararsızdır; ağır yem ve güçlü takım gerektirir.',
     funFact: 'Ege ve Akdeniz\'de görülen köpekbalığı türlerinin büyük çoğunluğu insana zarar vermeyen küçük ve orta boy türlerdir.',
-    photoUrl: '',
+    // TODO: verify species match — shark
+    photoUrl: 'https://images.pexels.com/photos/13476998/pexels-photo-13476998.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kılıç Balığı',
@@ -480,7 +511,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Rüzgarlı, dalgalı havalar',
     tip: 'Kılıç balığı derin sularda ve gece yüzeye yaklaşır; uzun paraketa takımları ve derin trolling ile avlanır.',
     funFact: 'Kılıç balığının uzun ve sert burnu, avını sersemletmek için kılıç gibi kullanılır.',
-    photoUrl: '',
+    // TODO: verify species match — swordfish
+    photoUrl: 'https://images.pexels.com/photos/4810629/pexels-photo-4810629.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Orkinos',
@@ -490,7 +522,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Hafif dalgalı havalar',
     tip: 'Orkinos büyük sürüler halinde göç eder; ağır trolling takımları ve canlı yemle derin sularda avlanır.',
     funFact: 'Orkinos, İstanbul ve Çanakkale Boğazı\'ndan geçen tarihi göç yollarıyla bilinir.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/12829694/pexels-photo-12829694.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Yazılı Orkinos',
@@ -500,7 +532,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Hafif dalgalı havalar',
     tip: 'Yazılı orkinos hızlı ve sürü halinde avlanır; yüzeye yakın kaşık ve ciggerle hızlı çekiş etkilidir.',
     funFact: 'Yazılı orkinos, sırtındaki dalgalı çizgi desenleriyle diğer ton balıklarından kolayca ayırt edilir.',
-    photoUrl: '',
+    // TODO: verify species match — bonito
+    photoUrl: 'https://images.pexels.com/photos/2289409/pexels-photo-2289409.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Tombik',
@@ -510,7 +543,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Hafif dalgalı havalar',
     tip: 'Tombik, küçük boy palamuttur; sürü hareketliliğini takip ederek kaşık yemle avlanmak en pratik yöntemdir.',
     funFact: 'Tombik adı, palamudun henüz olgunlaşmamış küçük ve dolgun bireylerine verilir.',
-    photoUrl: '',
+    // TODO: verify species match — juvenile bonito
+    photoUrl: 'https://images.pexels.com/photos/3205269/pexels-photo-3205269.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Çaçan',
@@ -520,7 +554,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Hafif dalgalı havalar',
     tip: 'Çaçan, akyanın genç halidir; yüzeye yakın parlak küçük yapay yemlerle hızlı çekişte iyi sonuç verir.',
     funFact: 'Çaçan, bazı kıyı bölgelerinde akyanın küçük boy bireylerine verilen yerel bir isimdir.',
-    photoUrl: '',
+    // TODO: verify species match — juvenile leerfish
+    photoUrl: 'https://images.pexels.com/photos/36385086/pexels-photo-36385086.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Tirsi',
@@ -530,7 +565,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Tirsi ilkbaharda üremek için nehir ağızlarına yaklaşır; gece sığ sularda küçük yemlerle avlanılabilir.',
     funFact: 'Tirsi, deniz ile tatlı su arasında göç eden anadrom bir balıktır.',
-    photoUrl: '',
+    // TODO: verify species match — shad
+    photoUrl: 'https://images.pexels.com/photos/9887818/pexels-photo-9887818.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Zurna Balığı',
@@ -540,7 +576,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Zurna balığı ince ve uzun gövdesiyle küçük yemlere ihtiyatlı yaklaşır; ince iğne ve küçük yemler tercih edilmeli.',
     funFact: 'Zurna balığı, uzun burnu ve ince gövdesiyle diğer birçok türden kolayca ayırt edilir.',
-    photoUrl: '',
+    // TODO: verify species match — cornetfish/needlefish
+    photoUrl: 'https://images.pexels.com/photos/4631154/pexels-photo-4631154.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kupes',
@@ -550,7 +587,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun ve güneşli havalar',
     tip: 'Kupes küçük sürüler halinde gezer; ince iğne ve küçük yemlerle art arda avlanabilen kolay bir türdür.',
     funFact: 'Kupes, Ege ve Akdeniz kıyılarında yaz aylarında en sık karşılaşılan küçük balıklardan biridir.',
-    photoUrl: '',
+    // TODO: verify species match — salema
+    photoUrl: 'https://images.pexels.com/photos/33701523/pexels-photo-33701523.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Iskarmoz',
@@ -560,7 +598,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Hafif dalgalı havalar',
     tip: 'Iskarmoz hızlı bir avcıdır; yüzeye yakın uzun ince yapay yemlerle hızlı çekiş yaparak avlanılır.',
     funFact: 'Iskarmoz, keskin dişleri ve torpido gibi uzun gövdesiyle tanınan hızlı bir avcı balıktır.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/13561336/pexels-photo-13561336.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'İskat',
@@ -570,7 +608,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'İskat, mercangiller ailesinden temkinli bir dip balığıdır; kayalık oyuklarda sabırlı ve sessiz avlanmak gerekir.',
     funFact: 'İskat, bazı kıyı bölgelerinde küçük boy mercangiller için kullanılan yerel bir isimdir.',
-    photoUrl: '',
+    // TODO: verify species match — small sparid
+    photoUrl: 'https://images.pexels.com/photos/30663714/pexels-photo-30663714.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Gümüş Balığı',
@@ -580,7 +619,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, güneşli havalar',
     tip: 'Gümüş balığı küçük sürüler halinde kıyıya yakın gezer; ince iğne ve ekmek içiyle kolayca avlanır.',
     funFact: 'Gümüş balığı, adını gövdesindeki parlak gümüşi şeritten alır.',
-    photoUrl: '',
+    // TODO: verify species match — silverside
+    photoUrl: 'https://images.pexels.com/photos/19152237/pexels-photo-19152237.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Horozbina',
@@ -590,7 +630,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Horozbina dip taraması yaparak beslenir; küçük karides yemiyle dip takımı iyi sonuç verir.',
     funFact: 'Horozbina, göğüs yüzgeçlerini bacak gibi kullanarak deniz tabanında \'yürüyebilen\' ilginç bir balıktır.',
-    photoUrl: '',
+    // TODO: verify species match — gurnard
+    photoUrl: 'https://images.pexels.com/photos/37703370/pexels-photo-37703370.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kaya Balığı',
@@ -600,7 +641,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Kaya balığı kayalıklar arasında gizlenir; küçük yemlerle ince takımla kolayca avlanabilen bir türdür.',
     funFact: 'Kaya balığı, kayalar arasındaki küçük göllenmelerde bile hayatta kalabilen dayanıklı bir türdür.',
-    photoUrl: '',
+    // TODO: verify species match — blenny
+    photoUrl: 'https://images.pexels.com/photos/6770875/pexels-photo-6770875.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Sübyan',
@@ -610,7 +652,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Sübyan, küçük boy kalamar ve mürekkep balığı türlerine verilen genel bir isimdir; gece ışık kaynakları yakınında zıpkın uçlu takımla avlanır.',
     funFact: 'Sübyan, çoğu sefalopod gibi mürekkep püskürterek kendini avcılardan korur.',
-    photoUrl: '',
+    // TODO: verify species match — small squid/cuttlefish
+    photoUrl: 'https://images.pexels.com/photos/2505042/pexels-photo-2505042.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kurbağa Balığı',
@@ -620,7 +663,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Kurbağa balığı dipte hareketsiz pusuya yatar; yavaş dip sunumu ve sabır gerektirir.',
     funFact: 'Kurbağa balığı, sırtındaki özel bir çıkıntıyı oltaymışçasına sallayarak küçük balıkları kendine çeker.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/35790970/pexels-photo-35790970.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Balon Balığı',
@@ -630,7 +673,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Balon balığı bazı Akdeniz kıyılarında istilacı bir türdür ve eti son derece zehirlidir; yakalanırsa asla tüketilmemelidir.',
     funFact: 'Balon balığı tehdit hissettiğinde suyu yutarak vücudunu şişirir ve derisindeki tetrodotoksin ölümcül derecede zehirlidir.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/12788237/pexels-photo-12788237.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Aslan Balığı',
@@ -640,7 +683,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Aslan balığı istilacı ve zehirli dikenlere sahiptir; yakalanırsa dikenlerine dokunmadan dikkatle tutulmalıdır.',
     funFact: 'Aslan balığı, Akdeniz\'e Kızıldeniz üzerinden yayılan istilacı bir türdür ve yerli balık popülasyonlarını tehdit eder.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/9946135/pexels-photo-9946135.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Çırçır',
@@ -650,7 +693,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Çırçır, dipten beslenen küçük bir tür olup ince takım ve küçük yemlerle kolayca avlanır.',
     funFact: 'Çırçır balığı adını, yakalandığında çıkardığı hırıltılı sese benzer sesten alır.',
-    photoUrl: '',
+    // TODO: verify species match — wrasse
+    photoUrl: 'https://images.pexels.com/photos/33701523/pexels-photo-33701523.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Gelincik',
@@ -660,7 +704,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Soğuk, durgun havalar',
     tip: 'Gelincik soğuk kış gecelerinde dipte aktif olur; kokulu yemle dip takımı kullanmak etkilidir.',
     funFact: 'Gelincik, morina ailesinden olup çenesinde dokunma organı görevi gören bir bıyığı vardır.',
-    photoUrl: '',
+    // TODO: verify species match — hake
+    photoUrl: 'https://images.pexels.com/photos/28000309/pexels-photo-28000309.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kıraça',
@@ -670,7 +715,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Hafif dalgalı havalar',
     tip: 'Kıraça, sarıkuyruğun genç halidir; batık çevrelerinde canlı yemle orta derinlikte avlanabilir.',
     funFact: 'Kıraça, bazı bölgelerde sarıkuyruğun henüz küçük boydaki bireylerine verilen isimdir.',
-    photoUrl: '',
+    // TODO: verify species match — juvenile amberjack
+    photoUrl: 'https://images.pexels.com/photos/36385086/pexels-photo-36385086.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Sazan',
@@ -680,7 +726,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Ilıman, durgun havalar',
     tip: 'Sazan dipte beslenir; mısır ve boilie gibi yemlerle sabırlı bekleme teknikleri en iyi sonucu verir.',
     funFact: 'Sazan, uygun koşullarda onlarca yıl yaşayabilen ve 30 kilogramın üzerine çıkabilen dayanıklı bir tatlı su balığıdır.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/11632274/pexels-photo-11632274.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Yayın Balığı',
@@ -690,7 +736,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Sıcak, durgun havalar',
     tip: 'Yayın balığı gece dipte avlanır; büyük canlı yem ve güçlü takımlarla derin çukurlarda aranmalıdır.',
     funFact: 'Yayın balığı, Avrupa\'nın en büyük tatlı su balıklarından biridir ve 2 metreyi aşan boylara ulaşabilir.',
-    photoUrl: '',
+    // TODO: verify species match — wels catfish
+    photoUrl: 'https://images.pexels.com/photos/38283737/pexels-photo-38283737.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Dere Alabalığı',
@@ -700,7 +747,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Serin, bulutlu havalar',
     tip: 'Dere alabalığı akıntılı ve soğuk sularda yaşar; sinek yemi ve küçük dönerli kaşıklarla akıntıya karşı sunum yapılır.',
     funFact: 'Dere alabalığı, temiz ve soğuk suların göstergesi kabul edilir; kirli sularda yaşayamaz.',
-    photoUrl: '',
+    // TODO: verify species match — brown trout
+    photoUrl: 'https://images.pexels.com/photos/9170405/pexels-photo-9170405.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Gökkuşağı Alabalığı',
@@ -710,7 +758,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Serin, bulutlu havalar',
     tip: 'Gökkuşağı alabalığı hem doğal hem yetiştiricilik sularında bulunur; küçük kaşık ve sinek yemiyle avlanır.',
     funFact: 'Gökkuşağı alabalığı adını yan hattı boyunca uzanan pembemsi-gökkuşağı rengindeki bandından alır.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/3311091/pexels-photo-3311091.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Göl Alabalığı',
@@ -720,7 +768,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Serin, durgun havalar',
     tip: 'Göl alabalığı derin ve soğuk su katmanlarında yaşar; derin trolling veya ağır kaşıkla avlanmak gerekir.',
     funFact: 'Göl alabalığı, diğer alabalık türlerine göre çok daha uzun ömürlü olabilir ve derin sularda yaşamayı tercih eder.',
-    photoUrl: '',
+    // TODO: verify species match — lake trout
+    photoUrl: 'https://images.pexels.com/photos/9170417/pexels-photo-9170417.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Turna Balığı',
@@ -730,7 +779,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Bulutlu, serin havalar',
     tip: 'Turna balığı pusuya yatan bir avcıdır; sazlık kenarlarında spinnerbait ve suni balıkla yavaş çekiş etkilidir.',
     funFact: 'Turna balığı, keskin dişleri ve pusu taktiğiyle tatlı suların en etkili avcılarından biridir.',
-    photoUrl: '',
+    // TODO: verify species match — northern pike
+    photoUrl: 'https://images.pexels.com/photos/12030390/pexels-photo-12030390.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Tatlı Su Levreği',
@@ -740,7 +790,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, ılıman havalar',
     tip: 'Tatlı su levreği küçük sürüler halinde gezer; küçük döner kaşık ve solucan yemiyle kolayca avlanır.',
     funFact: 'Tatlı su levreği, sırtındaki dikenli yüzgeciyle deniz levreğinden farklı bir türdür.',
-    photoUrl: '',
+    // TODO: verify species match — European perch
+    photoUrl: 'https://images.pexels.com/photos/9356834/pexels-photo-9356834.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Sudak',
@@ -750,7 +801,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Bulutlu, serin havalar',
     tip: 'Sudak alacakaranlıkta aktif beslenir; derin çukurlarda küçük suni yemle yavaş dip çekişi etkilidir.',
     funFact: 'Sudak, karanlıkta bile avını görebilen özel göz yapısına sahiptir.',
-    photoUrl: '',
+    // TODO: verify species match — zander
+    photoUrl: 'https://images.pexels.com/photos/12167832/pexels-photo-12167832.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kadife Balığı',
@@ -760,7 +812,7 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Ilıman, durgun havalar',
     tip: 'Kadife balığı dipte yavaş hareket eder; solucan yemiyle sabırlı dip avcılığı en iyi sonucu verir.',
     funFact: 'Kadife balığı, pullarının çok küçük ve derisinin kadifemsi dokulu olmasıyla tanınır.',
-    photoUrl: '',
+    photoUrl: 'https://images.pexels.com/photos/37236224/pexels-photo-37236224.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Çapak Balığı',
@@ -770,7 +822,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Çapak balığı sürü halinde dipte beslenir; mısır ve solucan yemiyle sabit dip takımı etkilidir.',
     funFact: 'Çapak balığı, geniş ve yassı gövdesiyle tatlı su balıkları arasında kolayca tanınır.',
-    photoUrl: '',
+    // TODO: verify species match — freshwater bream
+    photoUrl: 'https://images.pexels.com/photos/32693336/pexels-photo-32693336.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kızılkanat',
@@ -780,7 +833,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, güneşli havalar',
     tip: 'Kızılkanat sığ ve bitkili sularda gezer; küçük yem ve ince takımla kolayca avlanabilir.',
     funFact: 'Kızılkanat, yüzgeçlerindeki parlak kırmızı renkle diğer küçük tatlı su balıklarından ayrılır.',
-    photoUrl: '',
+    // TODO: verify species match — rudd
+    photoUrl: 'https://images.pexels.com/photos/33473054/pexels-photo-33473054.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'İnci Balığı',
@@ -790,7 +844,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Serin, berrak sular',
     tip: 'İnci balığı akıntılı ve taşlık derelerde küçük sürüler halinde gezer; ince iğne ve küçük yemle avlanır.',
     funFact: 'İnci balığı, temiz ve oksijeni bol akarsuların göstergesi kabul edilen küçük bir tatlı su türüdür.',
-    photoUrl: '',
+    // TODO: verify species match — small cyprinid
+    photoUrl: 'https://images.pexels.com/photos/9170404/pexels-photo-9170404.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Tahta Balığı',
@@ -800,7 +855,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Tahta balığı yassı ve geniş gövdesiyle sakin sularda sürü halinde gezer; mısır ve ekmek içiyle avlanır.',
     funFact: 'Tahta balığı adını, düz ve yassı gövde yapısından alır.',
-    photoUrl: '',
+    // TODO: verify species match — bream
+    photoUrl: 'https://images.pexels.com/photos/4322423/pexels-photo-4322423.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kefal (Tatlı Su)',
@@ -810,7 +866,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun ve ılık havalar',
     tip: 'Tatlı suya giren kefaller temkinlidir; sessiz kıyı bölgelerinde küçük yemlerle avlanmak gerekir.',
     funFact: 'Kefal, tuzlu ve tatlı su arasında rahatlıkla geçiş yapabilen uyumlu bir balıktır.',
-    photoUrl: '',
+    // TODO: verify species match — freshwater grey mullet
+    photoUrl: 'https://images.pexels.com/photos/28000309/pexels-photo-28000309.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kaya Balığı (Tatlı Su)',
@@ -820,7 +877,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun havalar',
     tip: 'Tatlı su kaya balığı taş altlarında gizlenir; küçük yemlerle ince takım kullanmak yeterlidir.',
     funFact: 'Tatlı su kaya balığı, taşların altına yapışarak akıntıya karşı durabilen özel yüzgeç yapısına sahiptir.',
-    photoUrl: '',
+    // TODO: verify species match — freshwater goby/blenny
+    photoUrl: 'https://images.pexels.com/photos/4781957/pexels-photo-4781957.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Yılan Balığı',
@@ -830,7 +888,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, karanlık gecelerde',
     tip: 'Yılan balığı gece dipte aktif olur; solucan yemiyle sabit dip takımı en iyi sonucu verir.',
     funFact: 'Yılan balığı, yaşamının bir bölümünü tatlı suda geçirip üremek için okyanusa göç eden ilginç bir türdür.',
-    photoUrl: '',
+    // TODO: verify species match — European eel
+    photoUrl: 'https://images.pexels.com/photos/37888892/pexels-photo-37888892.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Siraz',
@@ -840,7 +899,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Serin, berrak sular',
     tip: 'Siraz akıntılı derelerde sürü halinde gezer; küçük döner kaşık ve solucanla avlanabilir.',
     funFact: 'Siraz, hızlı akan berrak sularda yaşamayı tercih eden bir tatlı su balığıdır.',
-    photoUrl: '',
+    // TODO: verify species match — chub
+    photoUrl: 'https://images.pexels.com/photos/18179523/pexels-photo-18179523.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Gümüş Havuz Balığı',
@@ -850,7 +910,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, ılıman havalar',
     tip: 'Gümüş havuz balığı sakin sularda küçük sürüler halinde gezer; ekmek içi ve küçük yemle kolayca avlanır.',
     funFact: 'Gümüş havuz balığı, sazangillerin dayanıklı ve düşük oksijenli sularda bile yaşayabilen bir türüdür.',
-    photoUrl: '',
+    // TODO: verify species match — crucian carp
+    photoUrl: 'https://images.pexels.com/photos/16962634/pexels-photo-16962634.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Kara Balık',
@@ -860,7 +921,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Soğuk havalar',
     tip: 'Kara balık üreme döneminde nehirlere göç eder; akıntılı taşlık bölgelerde döner kaşıkla avlanılır.',
     funFact: 'Kara balık, Karadeniz alabalığı olarak da bilinir ve denizle nehir arasında göç eden bir salmon türüdür.',
-    photoUrl: '',
+    // TODO: verify species match — Black Sea salmon/trout
+    photoUrl: 'https://images.pexels.com/photos/38690319/pexels-photo-38690319.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Yağ Balığı',
@@ -870,7 +932,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Soğuk, durgun havalar',
     tip: 'Yağ balığı kış aylarında yüzeye yakın küçük sürüler halinde gezer; ince ve sık iğneli takımlarla avlanır.',
     funFact: 'Yağ balığı, hamsiye benzeyen küçük ve yağlı bir Karadeniz balığıdır.',
-    photoUrl: '',
+    // TODO: verify species match — sprat
+    photoUrl: 'https://images.pexels.com/photos/3911695/pexels-photo-3911695.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Çöpçü Balığı',
@@ -880,7 +943,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Ilıman havalar',
     tip: 'Çöpçü balığı dipte yosun ve alg temizleyerek beslenir; genellikle akvaryumlarda tutulan bir tatlı su türüdür.',
     funFact: 'Çöpçü balığı, ağzındaki emici yapıyla yüzeylere yapışıp alg temizleyebilir.',
-    photoUrl: '',
+    // TODO: verify species match — suckerfish/pleco
+    photoUrl: 'https://images.pexels.com/photos/34487007/pexels-photo-34487007.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
   {
     species: 'Dikence',
@@ -890,7 +954,8 @@ export const FISH_SPECIES_INFO: FishSpeciesInfo[] = [
     weatherPreference: 'Durgun, ılıman havalar',
     tip: 'Dikence küçük ve sığ sularda yaşar; ince iğne ve minik yemlerle kolayca avlanabilir.',
     funFact: 'Dikence, sırtındaki keskin dikenleriyle kendini avcılardan korur ve erkek bireyler yuva yaparak yavrulara bakar.',
-    photoUrl: '',
+    // TODO: verify species match — stickleback
+    photoUrl: 'https://images.pexels.com/photos/13070712/pexels-photo-13070712.jpeg?auto=compress&cs=tinysrgb&h=400&w=600',
   },
 ];
 

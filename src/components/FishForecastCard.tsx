@@ -4,6 +4,7 @@ import { Fish, Sparkles, ChevronRight, MapPin, Clock } from 'lucide-react';
 import { WeatherSnapshot } from '@/lib/weather';
 import { Season } from '@/types';
 import { computeSpeciesLikelihood, SpeciesLikelihood } from '@/lib/speciesLikelihood';
+import { FadeImage } from '@/components/FadeImage';
 
 interface FishForecastCardProps {
   weather: WeatherSnapshot | null;
@@ -115,6 +116,13 @@ export function FishForecastCard({ weather, season, loading, maxItems = 5 }: Fis
                     className="overflow-hidden"
                   >
                     <div className="ml-9 mt-2 space-y-1.5 rounded-xl bg-white/5 p-3">
+                      {item.photoUrl && (
+                        <FadeImage
+                          src={item.photoUrl}
+                          alt={item.species}
+                          className="mb-2 h-28 w-full rounded-lg"
+                        />
+                      )}
                       <p className="flex items-center gap-1.5 text-xs text-slate-300">
                         <Clock className="h-3 w-3 shrink-0 text-lake-300" />
                         {item.bestTime}
